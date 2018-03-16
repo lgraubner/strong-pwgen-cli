@@ -5,6 +5,18 @@
   "author": "Lars Graubner <mail@larsgraubner.de> (https://larsgraubner.com)",
   "homepage": "https://github.com/lgraubner/strong-pwgen-cli",
   "license": "MIT",
+  "keywords": [
+    "save",
+    "strong",
+    "random",
+    "password",
+    "pass",
+    "generator",
+    "cli",
+    "crypto",
+    "unique",
+    "security"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/lgraubner/strong-pwgen-cli.git"

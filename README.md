@@ -4,7 +4,7 @@
 
 > Generate cryptographically strong passwords.
 
-@TODO
+This CLI tool generates unique and strong passwords. Under the hood the excellent nanoid package is used which leverages the Node.js crypto module. You can read more about the generation process and security on it's [nanoid's Github page](https://github.com/ai/nanoid#readme).
 
 ## Table of contents
 
@@ -25,12 +25,15 @@ npx strong-pwgen-cli
 
 ## Usage
 
+This module provides a strong default consisting of a 32 characters long random string based on lower/uppercase alphabet, numbers and special chars. The result is getting copied directly to the clipboard.
 
 ```BASH
 pwgen [options]
 ```
 
 ## Options
+
+At the moment only a single option is available. Most of the time the default behavior should suffice.
 
 ### length
 
