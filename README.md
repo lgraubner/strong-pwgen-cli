@@ -28,7 +28,7 @@ npx strong-pwgen-cli
 This module provides a strong default consisting of a 32 characters long random string based on lower/uppercase alphabet, numbers and special chars. The result is getting copied directly to the clipboard.
 
 ```BASH
-pwgen [options]
+pwgen
 ```
 
 ## Options
@@ -39,7 +39,7 @@ At the moment only a single option is available. Most of the time the default be
 
 Adjust the length of the password.
 
-```
+```BASH
 pwgen --length 20
 # or
 pwgen -l 20
