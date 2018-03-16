@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const generate = require('nanoid/generate');
 const clipboardy = require('clipboardy');
 const mri = require('mri');
