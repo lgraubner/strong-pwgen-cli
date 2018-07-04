@@ -1,11 +1,8 @@
 #!/usr/bin/env node
 
-const generate = require('nanoid/generate');
+const nanoid = require('nanoid');
 const clipboardy = require('clipboardy');
 const mri = require('mri');
-
-const chars =
-  'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 !"#$%&\'()*+,-./:;<=>?@[]^_`{|}~';
 
 const help = () =>
   console.log(
@@ -54,7 +51,7 @@ const main = argv_ => {
   }
 
   // generate password and copy to clipboard
-  const pass = generate(chars, argv.length);
+  const pass = nanoid(argv.length);
   clipboardy.writeSync(pass);
   console.log('📋  copied to clipboard');
 

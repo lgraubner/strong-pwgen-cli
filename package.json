@@ -1,6 +1,6 @@
 {
   "name": "strong-pwgen-cli",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Generate cryptographically strong passwords.",
   "author": "Lars Graubner <mail@larsgraubner.de> (https://larsgraubner.com)",
   "homepage": "https://github.com/lgraubner/strong-pwgen-cli",
